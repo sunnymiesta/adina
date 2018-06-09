@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/adina/modules/miniupnpc/minixml.c
+string.h
+-
+minixml.h
+/root/adina/modules/miniupnpc/minixml.h
+
+/root/adina/modules/miniupnpc/minixml.h
+
+/root/adina/modules/miniupnpc/minixmlvalid.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+minixml.h
+/root/adina/modules/miniupnpc/minixml.h
+
